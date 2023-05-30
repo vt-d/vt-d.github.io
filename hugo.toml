@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'vt-d.tech'
+theme = 'archie'
+author = "vt-d"
+copyright = "© vt-d"
+
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = false
+style = "catppuccin-macchiato"
+
+[params]
+mode = "dark"
+customcss = ["css/custom.css", "css/syntax.css"]
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/vt-d"
+
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 2
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2

@@ -1,0 +1,47 @@
+/* Borrowed from frahz.dev */
+
+@font-face {
+	font-family: "Iosevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("../fonts/iosevka.woff2") format("woff2");
+}
+
+/* Markdown */
+:root {
+    --bordercl: #eba0ac;
+    --darkMaincolor: #f5c2e7;
+}
+
+::selection {
+    background: #cba6f7;
+}
+
+body {
+    background-color: #1e1e2e;
+}
+
+pre {
+    background-color: #24273a;
+}
+
+blockquote {
+    border-color: #f38ba8;
+}
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: "Iosevka Web";
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+.highlight pre code[class*='language-rust']::before{
+    content: 'rust';
+    background: #fab387;
+    color: #1e1e2e;
+}
